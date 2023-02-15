@@ -1,0 +1,126 @@
+*
+        {
+            margin:00px;
+            padding: 00px;
+            
+        }
+        .container
+        {
+            height: 70vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            flex-direction: row;
+            
+            
+
+        }
+        .font
+        {
+            
+            height: 470px;
+            width:300px;
+            position: relative;
+            border-radius:10px;
+            background-image:url('ecardbgfinal.png');
+            background-size: 300px 470px;
+            background-repeat: no-repeat;
+        }
+        
+        .companyname{
+            color: White;
+            padding: 10px;
+            font-size: 18px;
+            float: right;
+            text-align: right;
+        }
+
+        .tab {
+            
+            text-align: right;
+            font-size: 1rem;
+        }
+
+        .top img
+        {
+            height: 110px;
+            width: 110px;
+            background-color: #e6ebe0;
+            border-radius: 57px;
+            position: absolute;
+            top: 90px;
+            left: 95px;
+            object-fit: content;
+            border: 3px solid rgba(255 , 255 , 255 , .2);
+            
+        }
+        .ename{
+            position: relative;
+            top: 200px;
+            /* left: 17%; */
+            color: #222;
+            font-size: 16px;
+        }
+        .edetails
+        {
+            position: absolute;
+            top: 212px;
+            text-transform:capitalize;
+            font-size: 11px;
+            text-emphasis: spacing;
+            margin-left: 5px;
+        }
+        .signature{
+            position: absolute;
+            top: 75%;
+            height: 80px;
+            width: 160px;
+        }
+        .signature img{
+
+            height: 40px;
+            width: 100px;
+            margin: 15px 00px 00px 5px;
+            border-radius: 7px;
+          
+        }
+
+
+        .barcode img
+        {
+            height: 120px;
+            width: 120px;
+            text-align: center;
+            margin:5px;
+            
+        }
+        .barcode
+        {
+            text-align: center;
+            position: absolute;
+            top: 60.5%;
+            left: 85px;
+        }
+        
+
+        .qr img
+        {
+            position: absolute;
+            top: 85%;
+            left: 32%;
+            height: 30px;
+            width:120px;
+            margin:20px;
+            background-color:white;
+            
+        }
+        .edetails .Address
+        {
+           
+            width: 60%;
+            text-align: justify;
+        }
+     
